@@ -1,8 +1,6 @@
 import React,{useEffect} from 'react';
 import Scroll from '../Scroll';
 
-
-
 import './Home.css';
 import {Link} from 'react-router-dom';
 import Aos from 'aos';
