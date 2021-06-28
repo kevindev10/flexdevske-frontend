@@ -12,7 +12,6 @@ import resWebDes from './resWebDes.gif';
 
 
 
-
  function Home() {
 	useEffect(() =>{
 		Aos.init({});
