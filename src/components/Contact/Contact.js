@@ -5,8 +5,6 @@ import banner from './banner.jpg';
 import Scroll from '../Scroll';
 
 
-
-
 const intialState ={
 			sent:1,
 			email:'',
