@@ -6,7 +6,6 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import BannerSlider from './BannerSlider/BannerSlider';
 import whyus from './whyus.jpg';
-
 import socialmedia from './socialmedia.png';
 import impDes from './impDes.gif';
 import resWebDes from './resWebDes.gif';
