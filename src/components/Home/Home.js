@@ -22,7 +22,6 @@ import resWebDes from './resWebDes.gif';
 
 	return(
 
-
 		<div>
 
 
