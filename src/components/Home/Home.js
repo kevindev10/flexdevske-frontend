@@ -26,7 +26,6 @@ import resWebDes from './resWebDes.gif';
 		<div>
 
 
-
 			<div className='pb4 banner-slider' style={{ }}>
 		       	<BannerSlider/>
 		    </div>
