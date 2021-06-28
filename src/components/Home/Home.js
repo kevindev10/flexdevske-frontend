@@ -14,7 +14,6 @@ import resWebDes from './resWebDes.gif';
 
 
 
-
  function Home() {
 
  	
