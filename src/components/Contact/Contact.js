@@ -80,7 +80,7 @@ class Contact extends Component {
 	onButtonSubmit = (event) =>{
 
 		 event.preventDefault();
-		fetch('http://192.168.100.4:3001/sent', {
+		fetch('https://core.server10.flexdevske.co.ke/sent', {
 			method:'post',
 			headers:{'Content-Type':'application/json'},
 			body:JSON.stringify({
@@ -873,8 +873,8 @@ class Contact extends Component {
 							<p className=' ml5 mb3 footer-company-name dim pointer'  style={{ 'fontSize':'45px' ,'fontFamily':'Audiowide' }}> Flex DevsKe </p>
 							</Link>	
 							<div className='gray ml5 footer-all-social-icons'>
-								<i className=" fab fa-facebook-square fa-4x mr3  footer-social-facebook"></i>
-								<i className="fab fa-twitter-square  fa-4x mr3 footer-social-twitter"></i>
+								<a href="https://web.facebook.com/Flex-DevsKe-111123327891531" target="blank" rel="noreferrer" className='no-underline gray'>	<i className=" fab fa-facebook-square fa-4x mr3  footer-social-facebook"></i> </a>
+								<a href="https://twitter.com/home?logout=1625046868916" target="blank" rel="noreferrer" className='no-underline gray'>   <i className="fab fa-twitter-square  fa-4x mr3 footer-social-twitter"></i> </a>
 								<i className="fab fa-instagram-square fa-4x mr3 footer-social-instagram"></i>
 								<i className="fab fa-youtube-square fa-4x footer-social-youtube"></i>
 							</div>

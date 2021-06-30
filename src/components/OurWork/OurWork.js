@@ -65,7 +65,7 @@ function OurWork() {
 						          Website Design / Development
 						        </p>
 						        <div className='tc pt4'>
-						        	<a target="_blank" rel="noreferrer" href="https://lushroom-furniture.herokuapp.com/"> <button className='pa2 grow  shadow-5 f7 buttonMiddle-styling2  button-links-on-mobile' >VIEW DETAILS</button> </a>
+						        	<a target="_blank" rel="noreferrer" href="https://lushroom.furniture.flexdevske.co.ke/"> <button className='pa2 grow  shadow-5 f7 buttonMiddle-styling2  button-links-on-mobile' >VIEW DETAILS</button> </a>
 						        </div>
 						        
 						      </div>
@@ -91,7 +91,7 @@ function OurWork() {
 							            Website Design / Development
 							          </p>
 							            <div className='tc pt4'>
-											<a target="_blank" rel="noreferrer" href="https://giga-plant-and-equipment.herokuapp.com/"> <button className='pa2 grow  shadow-5 f7 buttonMiddle-styling2  button-links-on-mobile' >VIEW DETAILS</button> </a>								        </div>
+											<a target="_blank" rel="noreferrer" href="https://giga.plant.and.equipment.flexdevske.co.ke/"> <button className='pa2 grow  shadow-5 f7 buttonMiddle-styling2  button-links-on-mobile' >VIEW DETAILS</button> </a>								        </div>
 							         
 							        </div>
 							      </div>
@@ -109,7 +109,7 @@ function OurWork() {
 						         Website Design / Development
 						        </p>
 						        <div className='tc pt4'>
-									<a target="_blank" rel="noreferrer" href="https://water-life-2021.herokuapp.com/"> <button className='pa2 grow  shadow-5 f7 buttonMiddle-styling2  button-links-on-mobile' >VIEW DETAILS</button> </a>						        </div>
+									<a target="_blank" rel="noreferrer" href="https://water.life.flexdevske.co.ke/"> <button className='pa2 grow  shadow-5 f7 buttonMiddle-styling2  button-links-on-mobile' >VIEW DETAILS</button> </a>						        </div>
 						        
 						      </div>
 						      <div class=" order-1 order-2-ns mb4 mb0-ns w-100 w-50-ns portfolio-on-mobile-img-width">
@@ -136,7 +136,7 @@ function OurWork() {
 							          Website Design / Development
 							          </p>
 							            <div className='tc pt4'>
-											<a target="_blank" rel="noreferrer" href="https://bionist-merchants.herokuapp.com/about "> <button className='pa2 grow  shadow-5 f7 buttonMiddle-styling2  button-links-on-mobile' >VIEW DETAILS</button> </a>								        </div>
+											<a target="_blank" rel="noreferrer" href="https://bionist.merchants.flexdevske.co.ke/"> <button className='pa2 grow  shadow-5 f7 buttonMiddle-styling2  button-links-on-mobile' >VIEW DETAILS</button> </a>								        </div>
 							         
 							        </div>
 							      </div>
@@ -156,7 +156,7 @@ function OurWork() {
 						        </p>
 
 					            <div className='tc pt4'>
-									<a target="_blank" rel="noreferrer" href="https://instruous-construction.herokuapp.com/"> <button className='pa2 grow  shadow-5 f7 buttonMiddle-styling2  button-links-on-mobile' >VIEW DETAILS</button> </a>						        </div>
+									<a target="_blank" rel="noreferrer" href="https://instruous.construction.flexdevske.co.ke/"> <button className='pa2 grow  shadow-5 f7 buttonMiddle-styling2  button-links-on-mobile' >VIEW DETAILS</button> </a>						        </div>
 
 						      </div>
 						      <div class=" order-1 order-2-ns mb4 mb0-ns w-100 w-50-ns portfolio-on-mobile-img-width">
@@ -193,8 +193,8 @@ function OurWork() {
 							<p className=' ml5 mb3 footer-company-name dim pointer'  style={{ 'fontSize':'45px' ,'fontFamily':'Audiowide' }}> Flex DevsKe </p>
 							</Link>	
 							<div className='gray ml5 footer-all-social-icons'>
-								<i className=" fab fa-facebook-square fa-4x mr3  footer-social-facebook"></i>
-								<i className="fab fa-twitter-square  fa-4x mr3 footer-social-twitter"></i>
+								<a href="https://web.facebook.com/Flex-DevsKe-111123327891531" target="blank" rel="noreferrer" className='no-underline gray'>	<i className=" fab fa-facebook-square fa-4x mr3  footer-social-facebook"></i> </a>
+								<a href="https://twitter.com/home?logout=1625046868916" target="blank" rel="noreferrer" className='no-underline gray'>   <i className="fab fa-twitter-square  fa-4x mr3 footer-social-twitter"></i> </a>
 								<i className="fab fa-instagram-square fa-4x mr3 footer-social-instagram"></i>
 								<i className="fab fa-youtube-square fa-4x footer-social-youtube"></i>
 							</div>
