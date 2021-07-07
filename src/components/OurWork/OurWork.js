@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import {Helmet} from "react-helmet";
 import Scroll from '../Scroll';
 import './OurWork.css'
 import banner from './banner.jpg'
@@ -14,7 +15,11 @@ import bottomImg5 from	'./bottomImg5.jpg';
 function OurWork() {
 	return(
 		<div>
-
+			 <Helmet>
+                <title>Our Work</title>
+                <meta name="description" content="Responsive Web design and development in Nairobi, Kenya"/>
+                <meta name="keywords" content="our work, projects completed, portfolio  "/>
+            </Helmet>
 
 			<div>
 	    		<div className ='spacer '></div>

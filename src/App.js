@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import 'tachyons';
 import ScrollToTop from './components/ScrollToTop';
+import {Helmet} from "react-helmet";
 
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -20,7 +21,13 @@ class App extends React.Component {
     return (
       <Router>
         <ScrollToTop/>
-        
+          <Helmet>
+                <meta charSet="utf-8" />
+                <title>Flex DevsKe</title>
+                <link rel="canonical" href="https://www.flexdevske.co.ke/" />
+                <meta name="description" content="Web design and development in Nairobi, Kenya"/>
+                <meta name="keywords" content="Web design, Web development, Web designers, Web developers, Website Kenya, Website Nairobi, E-commerce "/>
+            </Helmet>
           <Navbar/>
             <Switch>
                 <Route exact path='/'>

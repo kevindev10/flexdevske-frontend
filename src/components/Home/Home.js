@@ -1,5 +1,6 @@
 import React,{useEffect} from 'react';
 import Scroll from '../Scroll';
+import {Helmet} from "react-helmet";
 import './Home.css';
 import {Link} from 'react-router-dom';
 import Aos from 'aos';
@@ -24,7 +25,13 @@ import resWebDes from './resWebDes.gif';
 
 		<div>
 
-
+			<Helmet>
+                <meta charSet="utf-8" />
+                
+                <title>Flex DevsKe</title>
+                <meta name="description" content="Web design and development specialists. We build websites that work, We build websites that Inspire, We build websites that deliver "/>
+                <meta name="keywords" content=" websites builders, Website developers, Website designers "/>
+            </Helmet>
 			<div className='pb4 banner-slider' style={{ }}>
 		       	<BannerSlider/>
 		    </div>

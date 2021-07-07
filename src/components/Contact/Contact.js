@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import {Link} from 'react-router-dom';
+import {Helmet} from "react-helmet";
 import './contact.css';
 import banner from './banner.jpg';
 import Scroll from '../Scroll';
@@ -120,6 +121,11 @@ class Contact extends Component {
 	render(){
 		return(
 			<div>
+					<Helmet>
+						<title>Contact Us</title>
+                        <meta name="description" content="Get A free quote and Contact us. We are here to help."/>
+	               		<meta name="keywords" content=" Get A free quote, Contact us"/>
+	           		 </Helmet>
 					<div>
 			    		<div className ='spacer '></div>
 						
